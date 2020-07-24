@@ -1,5 +1,4 @@
-# telegram ChatBot boilerplate
-A telegram chatbot boiler plate in Flask
+# A Telegram chatbot boiler plate in Flask.
 
 # How to use It?
   ### 1. change app/config.py.
