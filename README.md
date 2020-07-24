@@ -15,14 +15,14 @@ A telegram chatbot boiler plate in Flask
     for heroku: https://<YOU APP NAME>.herokuapp.com/
     ```
 ### 2. To cutomize Chatbot to give reponse according to you requirements.
-      ```
+    
       you need to change respond function in /app/api.py.
 
       here you can find reponse variable like : response = 'Here is your response'
 
       Just change it to whatever you want to reply or you can integrate you smart reply AI and repond with that result
       Whatever you want.
-     ```
+   
  ### 3. after customizing your app.
  
  you can deploy it and then trigger the setwebhook by going to <URl/setwebhook>.
