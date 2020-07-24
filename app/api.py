@@ -23,7 +23,6 @@ def respond():
     msg_id = update.message.message_id
 
     text = update.message.text.encode('utf-8').decode()
-    print('Got Text:',text)
 
     response = 'Here is your response'
 
@@ -34,7 +33,7 @@ def respond():
 def set_webhook():
     hook = bot.setWebhook(f'{URL}{TOKEN}')
     if hook:
-        return 'WebHook Setup Ok'
+        return 'WebHook Setup Success'
     else:
         return 'WebHook Setup Failed'
 
